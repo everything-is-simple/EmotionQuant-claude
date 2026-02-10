@@ -10,8 +10,7 @@
 
 项目执行与门控以 6A 工作流为准：
 
-- Phase → Task：[6A-WORKFLOW-phase-to-task.md](../../../Governance/steering/workflow/6A-WORKFLOW-phase-to-task.md)
-- Task → Step：[6A-WORKFLOW-task-to-step.md](../../../Governance/steering/workflow/6A-WORKFLOW-task-to-step.md)
+- Unified 6A：[6A-WORKFLOW.md](../../../Governance/steering/6A-WORKFLOW.md)
 
 ---
 

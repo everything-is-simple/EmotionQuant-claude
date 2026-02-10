@@ -1,7 +1,7 @@
 # EmotionQuant 治理结构与目录规范（Spiral 版）
 
-**版本**: v3.0.0  
-**最后更新**: 2026-02-07
+**版本**: v3.2.0  
+**最后更新**: 2026-02-10
 
 ---
 
@@ -11,6 +11,7 @@
 - `Governance/steering/`：铁律、原则、流程
 - `Governance/record/`：状态、债务、复用资产
 - `Governance/specs/spiral-s*/`：每圈 specs 与复盘
+- `docs/improvement-plans/`：改进行动计划统一入口（主计划）
 - `Governance/ROADMAP/archive-linear-v4-20260207/`：线性旧版只读归档
 
 ---
@@ -22,8 +23,8 @@
 | 本圈做什么 | `Governance/ROADMAP/ROADMAP-OVERVIEW.md` |
 | 能力契约是什么 | `Governance/ROADMAP/ROADMAP-PHASE-*.md`（CP） |
 | 任务如何写 | `Governance/ROADMAP/TASK-TEMPLATE.md` |
-| 任务如何执行 | `Governance/steering/workflow/6A-WORKFLOW-task-to-step.md` |
-| 规划如何拆分 | `Governance/steering/workflow/6A-WORKFLOW-phase-to-task.md` |
+| 6A 工作流如何执行 | `Governance/steering/6A-WORKFLOW.md` |
+| 改进行动主计划看哪里 | `docs/improvement-plans/eq-improvement-plan-core-frozen.md` |
 | 不可违反什么 | `Governance/steering/系统铁律.md` |
 
 ---
@@ -46,7 +47,7 @@ CP 文档仅在契约变化时更新。
 
 - `.claude/` 保留为历史工具资产，不作为当前强制流程。
 - 可复用内容迁移方向：
-  - 命令级检查逻辑 -> `Governance/steering/workflow/`
+- 命令级检查逻辑 -> `Governance/steering/`
   - 规则类约束 -> `Governance/steering/系统铁律.md`
   - 经验模板 -> `Governance/ROADMAP/TASK-TEMPLATE.md`
 
@@ -64,5 +65,7 @@ CP 文档仅在契约变化时更新。
 
 | 版本 | 日期 | 变更内容 |
 |---|---|---|
+| v3.2.0 | 2026-02-10 | 统一 6A 权威入口路径为 `Governance/steering/6A-WORKFLOW.md`，同步修正 SoT 与迁移指引 |
+| v3.1.0 | 2026-02-10 | SoT 增加改进行动主计划入口；工作流 SoT 统一到合并后的 `6A-WORKFLOW.md` |
 | v3.0.0 | 2026-02-07 | 增加单一事实源矩阵与 .claude 资产迁移原则 |
 | v2.0.0 | 2026-02-07 | Spiral 治理结构初稿 |

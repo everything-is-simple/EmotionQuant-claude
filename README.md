@@ -43,8 +43,7 @@ EmotionQuant 是面向中国 A 股的情绪驱动量化系统，执行模型为 
 
 关键流程文件：
 
-- `Governance/steering/workflow/6A-WORKFLOW-phase-to-task.md`
-- `Governance/steering/workflow/6A-WORKFLOW-task-to-step.md`
+- `Governance/steering/6A-WORKFLOW.md`
 - `Governance/ROADMAP/TASK-TEMPLATE.md`
 
 ## 快速开始

@@ -11,7 +11,7 @@ Canonical policy is now **Spiral-first** and aligned with `README.md` + `CLAUDE.
 2. `CLAUDE.md` (system entry + workflow)
 3. `docs/system-overview.md`, `docs/module-index.md`, `docs/naming-conventions.md`
 4. `Governance/steering/系统铁律.md` and `Governance/steering/CORE-PRINCIPLES.md`
-5. `Governance/steering/workflow/6A-WORKFLOW-task-to-step.md`
+5. `Governance/steering/6A-WORKFLOW.md`
 
 ---
 

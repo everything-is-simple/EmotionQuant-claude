@@ -47,8 +47,7 @@ Primary references:
 
 Workflow references:
 
-- `Governance/steering/workflow/6A-WORKFLOW-phase-to-task.md`
-- `Governance/steering/workflow/6A-WORKFLOW-task-to-step.md`
+- `Governance/steering/6A-WORKFLOW.md`
 - `Governance/ROADMAP/TASK-TEMPLATE.md`
 
 ## Quick setup

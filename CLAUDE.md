@@ -45,8 +45,7 @@
 
 详见：
 
-- `Governance/steering/workflow/6A-WORKFLOW-phase-to-task.md`
-- `Governance/steering/workflow/6A-WORKFLOW-task-to-step.md`
+- `Governance/steering/6A-WORKFLOW.md`
 
 ## 文档同步要求（最小集）
 

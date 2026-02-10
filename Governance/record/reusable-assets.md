@@ -23,8 +23,8 @@
 | S-GOV-001 | Spiral 主控路线图 | `Governance/ROADMAP/ROADMAP-OVERVIEW.md` | S | 圈级目标、CP 组合、最小同步 |
 | S-GOV-002 | CP 能力包模板 | `Governance/ROADMAP/ROADMAP-PHASE-*.md` | S | 契约/Slice/Gate 复用 |
 | S-GOV-003 | Task 闭环卡片模板 | `Governance/ROADMAP/TASK-TEMPLATE.md` | S | 每日任务拆解 |
-| S-GOV-004 | Task 执行工作流 | `Governance/steering/workflow/6A-WORKFLOW-task-to-step.md` | S | Scope/Build/Verify/Sync |
-| S-GOV-005 | Spiral 规划工作流 | `Governance/steering/workflow/6A-WORKFLOW-phase-to-task.md` | S | Spiral 到 Task 拆分 |
+| S-GOV-004 | 统一 6A 工作流 | `Governance/steering/6A-WORKFLOW.md` | S | Spiral 到 Task 到 Step 一体执行 |
+| S-GOV-005 | 6A 历史归档 | `Governance/steering/workflow/archive-compat-v6-20260210/` | A | 回溯历史口径，不参与当前执行 |
 
 ---
 
