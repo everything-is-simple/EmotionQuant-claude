@@ -1,6 +1,6 @@
 # ROADMAP Capability Pack CP-01｜数据层（Data Layer）
 
-**兼容文件名**: `ROADMAP-PHASE-01-data-layer.md`  
+**文件名**: `CP-01-data-layer.md`  
 **版本**: v6.0.0  
 **最后更新**: 2026-02-07
 
@@ -74,3 +74,5 @@
 2. 输出表或字段变化
 3. 错误处理策略变化
 4. DoD 门禁变化
+
+

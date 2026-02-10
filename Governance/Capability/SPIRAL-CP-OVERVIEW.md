@@ -22,7 +22,7 @@
 ## 2. 术语统一（去线性）
 
 - Spiral：一圈开发周期，默认 7 天。
-- CP（Capability Pack）：能力包。现有 `ROADMAP-PHASE-*.md` 文件名保留，仅作兼容。
+- CP（Capability Pack）：能力包。现有 `CP-*.md` 文件名保留，仅作兼容。
 - Slice：能力包中的最小可交付切片（1 天内可完成）。
 - 闭环证据：`run + test + artifact + review + sync` 五件套。
 
@@ -54,18 +54,18 @@
 
 ## 5. CP 映射（兼容旧文件名）
 
-| CP | 能力 | 文件（兼容命名） |
+| CP | 能力 | 文件 |
 |---|---|---|
-| CP-01 | Data Layer | `Governance/ROADMAP/ROADMAP-PHASE-01-data-layer.md` |
-| CP-02 | MSS | `Governance/ROADMAP/ROADMAP-PHASE-02-mss.md` |
-| CP-03 | IRS | `Governance/ROADMAP/ROADMAP-PHASE-03-irs.md` |
-| CP-04 | PAS | `Governance/ROADMAP/ROADMAP-PHASE-04-pas.md` |
-| CP-05 | Integration | `Governance/ROADMAP/ROADMAP-PHASE-05-integration.md` |
-| CP-06 | Backtest | `Governance/ROADMAP/ROADMAP-PHASE-06-backtest.md` |
-| CP-07 | Trading | `Governance/ROADMAP/ROADMAP-PHASE-07-trading.md` |
-| CP-08 | GUI | `Governance/ROADMAP/ROADMAP-PHASE-08-gui.md` |
-| CP-09 | Analysis | `Governance/ROADMAP/ROADMAP-PHASE-09-analysis.md` |
-| CP-10 | Validation | `Governance/ROADMAP/ROADMAP-PHASE-10-validation.md` |
+| CP-01 | Data Layer | `Governance/Capability/CP-01-data-layer.md` |
+| CP-02 | MSS | `Governance/Capability/CP-02-mss.md` |
+| CP-03 | IRS | `Governance/Capability/CP-03-irs.md` |
+| CP-04 | PAS | `Governance/Capability/CP-04-pas.md` |
+| CP-05 | Integration | `Governance/Capability/CP-05-integration.md` |
+| CP-06 | Backtest | `Governance/Capability/CP-06-backtest.md` |
+| CP-07 | Trading | `Governance/Capability/CP-07-trading.md` |
+| CP-08 | GUI | `Governance/Capability/CP-08-gui.md` |
+| CP-09 | Analysis | `Governance/Capability/CP-09-analysis.md` |
+| CP-10 | Validation | `Governance/Capability/CP-10-validation.md` |
 
 ---
 
@@ -99,7 +99,7 @@
 2. `Governance/record/development-status.md`
 3. `Governance/record/debts.md`
 4. `Governance/record/reusable-assets.md`
-5. `Governance/ROADMAP/ROADMAP-OVERVIEW.md`（只更新当圈状态）
+5. `Governance/Capability/SPIRAL-CP-OVERVIEW.md`（只更新当圈状态）
 
 能力包文档（CP）仅在“契约变化”时更新，不要求每圈都改。
 
@@ -119,7 +119,7 @@
 
 ## 9. 归档说明
 
-- 线性旧版：`Governance/ROADMAP/archive-linear-v4-20260207/`
+- 线性旧版：`Governance/Capability/archive-legacy-linear-v4-20260207/`
 - 该目录只读，不再继续演进。
 
 ---
@@ -131,3 +131,6 @@
 | v6.1.0 | 2026-02-07 | 增加 CP-10 Validation；S2/S3 显式引入验证闭环 |
 | v6.0.0 | 2026-02-07 | 重构为 Spiral 主控文档；引入 CP 术语；明确个人开发降负担同步契约 |
 | v5.1.0 | 2026-02-07 | Spiral 路线与边界约束基线 |
+
+
+

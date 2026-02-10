@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/algorithms/mss/` 仅有骨架（`__init__.py`），DataRepository/MssRepository 等为规划接口。
-- 本文档为信息流设计规格，具体实现以 CP-02 落地为准（兼容文件名 Phase 02）。
+- 本文档为信息流设计规格，具体实现以 CP-02 落地为准（对应原 Phase 02）。
 
 ---
 
@@ -417,4 +417,5 @@ Integration 汇总 MSS + IRS + PAS，生成三三制集成信号
 - 算法设计：[mss-algorithm.md](./mss-algorithm.md)
 - 数据模型：[mss-data-models.md](./mss-data-models.md)
 - API接口：[mss-api.md](./mss-api.md)
+
 

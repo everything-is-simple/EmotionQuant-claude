@@ -6,14 +6,14 @@
 
 - 作用：给自动化代理提供最小、可执行的仓库工作规则。
 - 权威架构入口：`docs/system-overview.md`
-- 权威路线入口：`Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+- 权威路线入口：`Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 - 权威治理入口：`Governance/steering/`
 
 ## 当前执行模型
 
 - 执行模型：Spiral（螺旋闭环），非线性 Stage 流水线。
 - 默认节奏：7 天一圈。
-- 路线术语：Capability Pack（CP），兼容旧 `ROADMAP-PHASE-*` 文件名。
+- 路线术语：Capability Pack（CP），使用 `CP-*` 文件名。
 - 每圈闭环：`run + test + artifact + review + sync`。
 
 ## 核心约束
@@ -55,9 +55,9 @@
 2. `Governance/record/development-status.md`
 3. `Governance/record/debts.md`
 4. `Governance/record/reusable-assets.md`
-5. `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+5. `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 
-`ROADMAP-PHASE-*.md` 仅在契约变化时更新。
+`CP-*.md` 仅在契约变化时更新。
 
 ## 技术栈口径（当前）
 
@@ -79,5 +79,8 @@
 ## 历史说明
 
 - 旧版线性文档已归档至：
-  - `Governance/ROADMAP/archive-linear-v4-20260207/`
+  - `Governance/Capability/archive-legacy-linear-v4-20260207/`
 - 本文件不再维护线性 Stage 叙述。
+
+
+

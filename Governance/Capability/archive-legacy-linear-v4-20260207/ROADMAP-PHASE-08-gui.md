@@ -6,7 +6,7 @@
 **时间范围**: Phase 08
 **核心交付**: 数据可视化、筛选功能、导出功能
 **前置依赖**: Phase 01-07
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -587,5 +587,7 @@ class ErrorResponse:
 | v4.0.1 | 2026-02-04 | 元数据日期更新 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、视图设计、API规范 |
 | v3.0.0 | 2026-01-31 | 重构版 |
+
+
 
 

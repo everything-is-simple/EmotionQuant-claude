@@ -6,7 +6,7 @@
 **时间范围**: Phase 03
 **核心交付**: IRS算法实现、六因子评分、轮动状态判断
 **前置依赖**: Phase 01 (Data Layer)
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -772,5 +772,7 @@ CREATE TABLE irs_quality_log (
 | v4.0.1 | 2026-02-04 | 连续性因子命名统一、DuckDB存储口径更新 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、错误处理、质量监控 |
 | v3.0.0 | 2026-01-31 | 重构版：统一六因子架构 |
+
+
 
 

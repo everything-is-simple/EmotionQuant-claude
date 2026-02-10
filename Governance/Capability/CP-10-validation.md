@@ -1,6 +1,6 @@
 # ROADMAP Capability Pack CP-10｜Validation（因子与权重验证）
 
-**兼容文件名**: `ROADMAP-PHASE-10-validation.md`  
+**文件名**: `CP-10-validation.md`  
 **版本**: v1.0.0  
 **最后更新**: 2026-02-07
 
@@ -77,4 +77,6 @@
 3. baseline 或候选权重策略变化
 4. 验证窗口/频率变化
 5. 回退策略变化
+
+
 

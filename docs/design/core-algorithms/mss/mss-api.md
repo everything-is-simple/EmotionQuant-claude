@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/algorithms/mss/` 仅有骨架（`__init__.py`），MssCalculator/MssRepository 为规划接口。
-- 本文档为设计规格，接口实现以 CP-02 落地为准（兼容文件名 Phase 02）。
+- 本文档为设计规格，接口实现以 CP-02 落地为准（对应原 Phase 02）。
 
 ---
 
@@ -113,7 +113,7 @@ class MssRepository:
 - 周期输出 `unknown`：表示可计算但历史窗口不足，不属于错误，不抛异常。
 - 详细错误码与处理策略见：
   - `docs/design/core-algorithms/mss/mss-algorithm.md`
-  - `Governance/ROADMAP/ROADMAP-PHASE-02-mss.md`
+  - `Governance/Capability/CP-02-mss.md`
 
 ---
 
@@ -132,3 +132,6 @@ class MssRepository:
 - 算法设计：[mss-algorithm.md](./mss-algorithm.md)
 - 数据模型：[mss-data-models.md](./mss-data-models.md)
 - 信息流：[mss-information-flow.md](./mss-information-flow.md)
+
+
+

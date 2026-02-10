@@ -1,6 +1,6 @@
 # ROADMAP Capability Pack CP-09｜Analysis（分析报告）
 
-**兼容文件名**: `ROADMAP-PHASE-09-analysis.md`  
+**文件名**: `CP-09-analysis.md`  
 **版本**: v6.0.0  
 **最后更新**: 2026-02-07
 
@@ -73,3 +73,5 @@
 2. 指标或归因模型变化
 3. 输出格式变化
 4. 降级策略变化
+
+

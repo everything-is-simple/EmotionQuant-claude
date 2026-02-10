@@ -6,7 +6,7 @@
 **时间范围**: Phase 07
 **核心交付**: 订单管理、T+1追踪、风控规则
 **前置依赖**: Phase 05 (Integration)
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -793,5 +793,7 @@ CREATE TABLE trading_quality_log (
 | v4.0.1 | 2026-02-04 | 交易落库统一到 DuckDB 按年分库 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、订单状态机、风控规则 |
 | v3.0.0 | 2026-01-31 | 重构版 |
+
+
 
 

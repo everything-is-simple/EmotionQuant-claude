@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/integration/` 仅有骨架（`__init__.py`），IntegrationEngine/IntegrationRepository 为规划接口。
-- 本文档为设计规格，接口实现以 CP-05 落地为准（兼容文件名 Phase 05）。
+- 本文档为设计规格，接口实现以 CP-05 落地为准（对应原 Phase 05）。
 
 ---
 
@@ -134,7 +134,7 @@ class IntegrationRepository:
 - 若 IRS 输入全部为 `quality_flag="cold_start"`：不抛异常，强制回退 baseline 权重并按 WARN 继续输出（用于下游识别低置信度）。
 - 详细错误码与处理策略见：
   - `docs/design/core-algorithms/integration/integration-algorithm.md`
-  - `Governance/ROADMAP/ROADMAP-PHASE-05-integration.md`
+  - `Governance/Capability/CP-05-integration.md`
 
 ---
 
@@ -157,3 +157,6 @@ class IntegrationRepository:
 - 算法设计：[integration-algorithm.md](./integration-algorithm.md)
 - 数据模型：[integration-data-models.md](./integration-data-models.md)
 - 信息流：[integration-information-flow.md](./integration-information-flow.md)
+
+
+

@@ -91,7 +91,7 @@
 - `docs/system-overview.md`
 - `docs/module-index.md`
 - `docs/naming-conventions.md`
-- `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+- `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 - `.reports/对标开源A股量化系统批判_20260209_150147.md`
 - `.reports/对标开源A股量化系统批判_修订版_20260209.md`
 - `.reports/对标批判响应行动计划_20260209_233929.md`
@@ -102,4 +102,6 @@
 | 日期 | 版本 | 变更 |
 |---|---|---|
 | 2026-02-10 | v1.0.0 | 首版主计划；建立 docs 统一入口，收敛分散计划 |
+
+
 

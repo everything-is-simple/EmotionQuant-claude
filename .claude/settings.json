@@ -145,7 +145,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "G:\\EmotionQuant_beta",
+        "G:\\\\EmotionQuant-gpt",
         "G:\\EmotionQuant_data"
       ],
       "env": {}
@@ -181,3 +181,4 @@
     }
   }
 }
+

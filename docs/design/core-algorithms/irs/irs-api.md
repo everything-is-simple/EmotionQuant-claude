@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/algorithms/irs/` 仅有骨架（`__init__.py`），IrsCalculator/IrsRepository 为规划接口。
-- 本文档为设计规格，接口实现以 CP-03 落地为准（兼容文件名 Phase 03）。
+- 本文档为设计规格，接口实现以 CP-03 落地为准（对应原 Phase 03）。
 
 ---
 
@@ -98,7 +98,7 @@ class IrsRepository:
 - 陈旧数据降级：当可用样本不足但可沿用前值时，输出 `quality_flag="stale"`（合法输出，不抛异常）。
 - 详细错误码与处理策略见：
   - `docs/design/core-algorithms/irs/irs-algorithm.md`
-  - `Governance/ROADMAP/ROADMAP-PHASE-03-irs.md`
+  - `Governance/Capability/CP-03-irs.md`
 
 ---
 
@@ -117,3 +117,6 @@ class IrsRepository:
 - 算法设计：[irs-algorithm.md](./irs-algorithm.md)
 - 数据模型：[irs-data-models.md](./irs-data-models.md)
 - 信息流：[irs-information-flow.md](./irs-information-flow.md)
+
+
+

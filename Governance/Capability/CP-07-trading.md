@@ -1,6 +1,6 @@
 # ROADMAP Capability Pack CP-07｜Trading（交易与风控）
 
-**兼容文件名**: `ROADMAP-PHASE-07-trading.md`  
+**文件名**: `CP-07-trading.md`  
 **版本**: v6.0.0  
 **最后更新**: 2026-02-07
 
@@ -74,3 +74,5 @@
 2. 风控规则变化
 3. 输出日志结构变化
 4. 回测对齐口径变化
+
+

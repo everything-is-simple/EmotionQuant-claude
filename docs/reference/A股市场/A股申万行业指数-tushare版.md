@@ -7,7 +7,7 @@
 **数据源**: TuShare Pro + 申万宏源官方标准
 **优先级**: 申万行业分类权威参考（恒星组文档 ⭐⭐⭐）
 **定位**: 参考资料（非设计规范）
-**路线图口径**: Spiral + CP（兼容文件名 `ROADMAP-PHASE-*`，以 `Governance/ROADMAP/ROADMAP-OVERVIEW.md` 为准）
+**路线图口径**: Spiral + CP（命名 `CP-*`，以 `Governance/Capability/SPIRAL-CP-OVERVIEW.md` 为准）
 **冲突处理**: 若与 `docs/design/` 冲突，以设计文档为准
 **整理更新**: 2026-02-05（系统铁律表述更新）
 
@@ -681,3 +681,6 @@ print(f"建议: {quality_report['recommendation']}")
 *文档版本: v3.0*
 *EmotionQuant项目 - 恒星组文档 ⭐⭐⭐*
 *升级日志: 增强数据质量保证、优化性能、新增2025年行业热度分析*
+
+
+

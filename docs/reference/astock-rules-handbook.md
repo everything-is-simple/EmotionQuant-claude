@@ -5,7 +5,7 @@
 **适用范围**: EmotionQuant项目 A股交易规则 + TuShare数据映射
 **数据源**: TuShare Pro + 上交所/深交所/北交所官方规则
 **定位**: 参考资料（非设计规范）
-**路线图口径**: Spiral + CP（兼容文件名 `ROADMAP-PHASE-*`，以 `Governance/ROADMAP/ROADMAP-OVERVIEW.md` 为准）
+**路线图口径**: Spiral + CP（命名 `CP-*`，以 `Governance/Capability/SPIRAL-CP-OVERVIEW.md` 为准）
 **冲突处理**: 若与 `docs/design/` 冲突，以设计文档为准
 
 **合规声明**:
@@ -264,3 +264,6 @@ def check_data_quality(df: pd.DataFrame, table_name: str) -> dict:
 **关联文档**：
 - 数据层设计：[../design/data-layer/](../design/data-layer/)
 - 回测设计：[../design/backtest/](../design/backtest/)
+
+
+

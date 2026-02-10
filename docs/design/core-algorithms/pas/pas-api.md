@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/algorithms/pas/` 仅有骨架（`__init__.py`），PasCalculator/PasRepository 为规划接口。
-- 本文档为设计规格，接口实现以 CP-04 落地为准（兼容文件名 Phase 04）。
+- 本文档为设计规格，接口实现以 CP-04 落地为准（对应原 Phase 04）。
 
 ---
 
@@ -98,7 +98,7 @@ class PasRepository:
 - 非交易日或数据缺失：抛出 `ValueError`。
 - 详细错误码与处理策略见：
   - `docs/design/core-algorithms/pas/pas-algorithm.md`
-  - `Governance/ROADMAP/ROADMAP-PHASE-04-pas.md`
+  - `Governance/Capability/CP-04-pas.md`
 
 ---
 
@@ -118,3 +118,6 @@ class PasRepository:
 - 算法设计：[pas-algorithm.md](./pas-algorithm.md)
 - 数据模型：[pas-data-models.md](./pas-data-models.md)
 - 信息流：[pas-information-flow.md](./pas-information-flow.md)
+
+
+

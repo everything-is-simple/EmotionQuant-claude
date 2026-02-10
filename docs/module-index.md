@@ -104,8 +104,8 @@ docs/
 ## 5. 与 ROADMAP 的关系
 
 - ROADMAP 文件采用 Capability Pack（CP）语义，不是线性闸门。
-- 文件名 `ROADMAP-PHASE-*.md` 为兼容命名，执行时按 CP 理解。
-- Validation 模块在路线图中对应 `CP-10`（`Governance/ROADMAP/ROADMAP-PHASE-10-validation.md`）。
+- 文件名采用 `CP-*.md`，执行时按 CP 理解。
+- Validation 模块在路线图中对应 `CP-10`（`Governance/Capability/CP-10-validation.md`）。
 - 每圈 Spiral 从能力包中取切片实现，收口时必须同步更新文档与 record。
 
 ---
@@ -123,3 +123,6 @@ docs/
 ## 6. 设计迁移说明
 
 - 过渡期冲突处理：`docs/design/README-spiral-transition.md`
+
+
+

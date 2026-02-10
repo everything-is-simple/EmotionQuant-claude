@@ -2,7 +2,7 @@
 
 **版本**: v1.0.0
 **最后更新**: 2026-02-05
-**状态**: 设计校验清单（用于 CP-06 实现与验收，兼容文件名 Phase 06）
+**状态**: 设计校验清单（用于 CP-06 实现与验收，对应原 Phase 06）
 
 ---
 
@@ -180,3 +180,4 @@
 - `docs/design/backtest/backtest-data-models.md`
 - `docs/design/backtest/backtest-api.md`
 - `docs/design/backtest/backtest-information-flow.md`
+

@@ -10,7 +10,7 @@
 
 - 设计规范：`../design/`
 - 治理规范：`../../Governance/steering/`
-- 路线图：`../../Governance/ROADMAP/`
+- 路线图：`../../Governance/Capability/`
 
 ---
 
@@ -29,3 +29,4 @@
 
 - 本目录内容以“参考”为目的，若与 `docs/design/` 或 `Governance/` 冲突，以上级文档为准。
 - 需要历史内容可通过 Git 历史版本追溯。
+

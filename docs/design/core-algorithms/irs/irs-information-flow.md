@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/algorithms/irs/` 仅有骨架（`__init__.py`），DataRepository/IrsRepository 等为规划接口。
-- 本文档为信息流设计规格，具体实现以 CP-03 落地为准（兼容文件名 Phase 03）。
+- 本文档为信息流设计规格，具体实现以 CP-03 落地为准（对应原 Phase 03）。
 
 ---
 
@@ -413,4 +413,5 @@ Integration 汇总 MSS + IRS + PAS，生成三三制集成信号：
 - 算法设计：[irs-algorithm.md](./irs-algorithm.md)
 - 数据模型：[irs-data-models.md](./irs-data-models.md)
 - API接口：[irs-api.md](./irs-api.md)
+
 

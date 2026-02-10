@@ -18,7 +18,7 @@
 
 1. `Governance/steering/系统铁律.md`
 2. `Governance/steering/CORE-PRINCIPLES.md`
-3. `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+3. `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 4. `docs/system-overview.md`
 5. `docs/module-index.md`
 6. `docs/design/**` 历史细节文档
@@ -51,4 +51,6 @@
 
 - 是否触发了本声明
 - 按哪条优先级规则处理
+
+
 

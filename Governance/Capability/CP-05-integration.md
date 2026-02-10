@@ -1,6 +1,6 @@
 # ROADMAP Capability Pack CP-05｜Integration（三系统集成）
 
-**兼容文件名**: `ROADMAP-PHASE-05-integration.md`  
+**文件名**: `CP-05-integration.md`  
 **版本**: v6.0.0  
 **最后更新**: 2026-02-07
 
@@ -71,3 +71,5 @@
 2. 权重策略变化
 3. Gate 规则变化
 4. 回退策略变化
+
+

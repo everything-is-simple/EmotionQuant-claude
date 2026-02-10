@@ -6,7 +6,7 @@
 **时间范围**: Phase 09
 **核心交付**: 绩效分析、信号归因、日报生成
 **前置依赖**: Phase 01-07
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -888,5 +888,7 @@ CREATE TABLE analysis_quality_log (
 | v4.0.1 | 2026-02-04 | 落库位置统一到 L4 DuckDB 按年分库 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、绩效计算、日报生成 |
 | v3.0.0 | 2026-01-31 | 重构版 |
+
+
 
 

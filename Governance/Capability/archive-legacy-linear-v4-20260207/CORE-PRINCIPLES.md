@@ -262,5 +262,7 @@ main/master
 ---
 
 **关联文档**：
-- ROADMAP总览：`Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+- ROADMAP总览：`Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 - 系统总览：`docs/system-overview.md`
+
+

@@ -6,7 +6,7 @@
 **时间范围**: Phase 06
 **核心交付**: 回测接入与适配（优先 backtrader，qlib 为规划/实验项需技术选型变更）、覆盖 TD/BU、绩效计算
 **前置依赖**: Phase 05 (Integration)
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -925,5 +925,7 @@ CREATE TABLE backtest_quality_log (
 | v4.0.1 | 2026-02-04 | 落库口径调整为 DuckDB 按年分库 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、T+1铁律、绩效计算 |
 | v3.0.0 | 2026-01-31 | 重构版 |
+
+
 
 

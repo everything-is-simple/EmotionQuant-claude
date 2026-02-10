@@ -67,7 +67,7 @@
 2. `Governance/record/development-status.md`
 3. `Governance/record/debts.md`
 4. `Governance/record/reusable-assets.md`
-5. `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+5. `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 
 CP 文档仅在契约变化时同步。
 
@@ -81,3 +81,5 @@ CP 文档仅在契约变化时同步。
 | v5.0.1 | 2026-02-09 | 修复 R29：补充技术指标边界条款并与系统铁律口径显式对齐 |
 | v5.0.0 | 2026-02-07 | 引入最小同步集与文档最小化原则 |
 | v4.0.0 | 2026-02-07 | Spiral 分级治理初稿 |
+
+

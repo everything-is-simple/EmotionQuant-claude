@@ -6,7 +6,7 @@
 **时间范围**: Phase 05
 **核心交付**: MSS+IRS+PAS集成、三分之一原则、推荐等级
 **前置依赖**: Phase 02 (MSS), Phase 03 (IRS), Phase 04 (PAS)
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -962,5 +962,7 @@ CREATE TABLE integration_quality_log (
 | v4.0.1 | 2026-02-04 | 存储层说明统一为 DuckDB 按年分库 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、错误处理、铁律检查 |
 | v3.0.0 | 2026-01-31 | 重构版：强化三分之一原则 |
+
+
 
 

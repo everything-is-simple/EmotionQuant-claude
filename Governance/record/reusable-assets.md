@@ -20,9 +20,9 @@
 
 | ID | 资产 | 路径 | 等级 | 用途 |
 |---|---|---|---|---|
-| S-GOV-001 | Spiral 主控路线图 | `Governance/ROADMAP/ROADMAP-OVERVIEW.md` | S | 圈级目标、CP 组合、最小同步 |
-| S-GOV-002 | CP 能力包模板 | `Governance/ROADMAP/ROADMAP-PHASE-*.md` | S | 契约/Slice/Gate 复用 |
-| S-GOV-003 | Task 闭环卡片模板 | `Governance/ROADMAP/TASK-TEMPLATE.md` | S | 每日任务拆解 |
+| S-GOV-001 | Spiral 主控路线图 | `Governance/Capability/SPIRAL-CP-OVERVIEW.md` | S | 圈级目标、CP 组合、最小同步 |
+| S-GOV-002 | CP 能力包模板 | `Governance/Capability/CP-*.md` | S | 契约/Slice/Gate 复用 |
+| S-GOV-003 | Task 闭环卡片模板 | `Governance/Capability/SPIRAL-TASK-TEMPLATE.md` | S | 每日任务拆解 |
 | S-GOV-004 | 统一 6A 工作流 | `Governance/steering/6A-WORKFLOW.md` | S | Spiral 到 Task 到 Step 一体执行 |
 | S-GOV-005 | 6A 历史归档 | `Governance/steering/workflow/archive-compat-v6-20260210/` | A | 回溯历史口径，不参与当前执行 |
 
@@ -63,3 +63,6 @@
 |---|---|---|
 | 2026-02-07 | v2.0 | 重建为 Spiral 资产清单，移除旧线性 Task 占位口径 |
 | 2026-02-05 | v1.4 | 线性阶段资产登记版本 |
+
+
+

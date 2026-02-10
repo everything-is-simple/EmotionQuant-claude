@@ -9,7 +9,7 @@
 ## 实现状态（仓库现状）
 
 - 当前仓库 `src/integration/` 仅有骨架（`__init__.py`），IntegrationRepository/MssRepository/IrsRepository/PasRepository 等为规划接口。
-- 本文档为信息流设计规格，具体实现以 CP-05 落地为准（兼容文件名 Phase 05）。
+- 本文档为信息流设计规格，具体实现以 CP-05 落地为准（对应原 Phase 05）。
 
 ---
 
@@ -486,5 +486,6 @@ Step 8:
 - 算法设计：[integration-algorithm.md](./integration-algorithm.md)
 - 数据模型：[integration-data-models.md](./integration-data-models.md)
 - API接口：[integration-api.md](./integration-api.md)
+
 
 

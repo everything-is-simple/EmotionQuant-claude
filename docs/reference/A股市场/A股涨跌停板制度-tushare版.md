@@ -7,7 +7,7 @@
 **文档类型**: 参考标准（Reference Standard）
 **优先级**: ⭐ 恒星组（权威标准，相对稳定）
 **定位**: 参考资料（非设计规范）
-**路线图口径**: Spiral + CP（兼容文件名 `ROADMAP-PHASE-*`，以 `Governance/ROADMAP/ROADMAP-OVERVIEW.md` 为准）
+**路线图口径**: Spiral + CP（命名 `CP-*`，以 `Governance/Capability/SPIRAL-CP-OVERVIEW.md` 为准）
 **冲突处理**: 若与 `docs/design/` 冲突，以设计文档为准
 **整理更新**: 2026-02-05（系统铁律表述更新）
 
@@ -392,3 +392,6 @@ def get_board_emotion_weights() -> Dict:
 *文档版本: v4.0*
 *EmotionQuant项目 - 恒星组文档 ⭐⭐⭐*
 *核心创新: 基于 ROADMAP 当前版本对齐*
+
+
+

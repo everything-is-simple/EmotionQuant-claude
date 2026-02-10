@@ -63,7 +63,7 @@
   2. `Governance/record/development-status.md`
   3. `Governance/record/debts.md`
   4. `Governance/record/reusable-assets.md`
-  5. `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+  5. `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 - 若涉及改进行动计划变更，同步更新：
   - `docs/improvement-plans/eq-improvement-plan-core-frozen.md`
 
@@ -114,3 +114,5 @@
 |---|---|---|
 | v6.1.0 | 2026-02-10 | 旧 `phase-to-task/task-to-step` 文件归档；明确本文件为唯一执行入口 |
 | v6.0.0 | 2026-02-10 | 合并 `phase-to-task` 与 `task-to-step` 为单一 6A 权威流程；默认合并目标切换为 `main`，保留 `develop` 可选策略 |
+
+

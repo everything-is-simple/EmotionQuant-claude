@@ -29,8 +29,8 @@ Canonical policy is now **Spiral-first** and aligned with `README.md` + `CLAUDE.
 ## Terminology
 
 - Use `Capability Pack (CP)` as the execution term.
-- Current files keep compatibility naming `ROADMAP-PHASE-*.md`.
-- Do not interpret `Phase` in file names as linear stage gates.
+- Current files use `CP-*.md` naming.
+- Do not interpret CP indices as linear stage gates.
 
 ---
 
@@ -39,6 +39,7 @@ Canonical policy is now **Spiral-first** and aligned with `README.md` + `CLAUDE.
 - Project status: `Governance/record/development-status.md`
 - Debts: `Governance/record/debts.md`
 - Reusable assets: `Governance/record/reusable-assets.md`
+- New-system spiral roadmap: `Governance/SpiralRoadmap/SPIRAL-IMPLEMENTATION-OVERVIEW.md`
 - Tests & tooling: `pyproject.toml`, `requirements.txt`
 
 ---
@@ -54,5 +55,8 @@ Canonical policy is now **Spiral-first** and aligned with `README.md` + `CLAUDE.
 ## Tooling note (.claude)
 
 - `.claude/` is retained as historical tooling assets.
-- Reusable governance rules have been migrated to `Governance/steering/` and `Governance/ROADMAP/`.
+- Reusable governance rules have been migrated to `Governance/steering/` and `Governance/Capability/`.
 - Do not treat `.claude` commands as canonical workflow requirements.
+
+
+

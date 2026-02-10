@@ -32,13 +32,14 @@ Primary references:
 
 - `docs/system-overview.md`
 - `docs/module-index.md`
-- `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+- `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
+- `Governance/SpiralRoadmap/SPIRAL-IMPLEMENTATION-OVERVIEW.md`
 
 ## Development model (Spiral)
 
 - Default: 7 days per spiral, one primary objective per spiral.
 - Scope: 1-3 capability slices per spiral.
-- Terminology: use **Capability Pack (CP)**; existing `ROADMAP-PHASE-*.md` names are compatibility only.
+- Terminology: use **Capability Pack (CP)**; `CP-*.md` is the formal naming.
 - Closure gates are mandatory:
   - runnable command
   - automated test
@@ -48,7 +49,7 @@ Primary references:
 Workflow references:
 
 - `Governance/steering/6A-WORKFLOW.md`
-- `Governance/ROADMAP/TASK-TEMPLATE.md`
+- `Governance/Capability/SPIRAL-TASK-TEMPLATE.md`
 
 ## Quick setup
 
@@ -73,3 +74,6 @@ pytest -v
 ## Repository
 
 - `origin`: `https://github.com/everything-is-simple/EmotionQuant_beta.git`
+
+
+

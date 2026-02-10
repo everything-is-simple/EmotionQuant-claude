@@ -17,10 +17,12 @@
 - [ ] `Governance/record/development-status.md`
 - [ ] `Governance/record/debts.md`
 - [ ] `Governance/record/reusable-assets.md`
-- [ ] `Governance/ROADMAP/ROADMAP-OVERVIEW.md`
+- [ ] `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 
 ## 4. 下一圈建议
 
 - 主目标：
 - CP 组合：
 - 预估风险：
+
+

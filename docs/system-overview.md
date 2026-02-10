@@ -91,15 +91,16 @@ EmotionQuant 是面向中国 A 股的情绪驱动量化系统。自 2026-02-07 �
 补充口径：
 
 - 路线术语统一使用 `Capability Pack (CP)`。
-- `ROADMAP-PHASE-*.md` 仅为兼容文件名，不代表线性阶段闸门。
+- `CP-*.md` 为正式命名，不代表线性阶段闸门。
 
 ---
 
 ## 8. 文档导航
 
 - 模块索引：`docs/module-index.md`
-- 路线总览：`Governance/ROADMAP/ROADMAP-OVERVIEW.md`
-- 能力包（CP）：`Governance/ROADMAP/ROADMAP-PHASE-*.md`
+- 路线总览：`Governance/Capability/SPIRAL-CP-OVERVIEW.md`
+- 能力包（CP）：`Governance/Capability/CP-*.md`
+- 新系统螺旋实现路线：`Governance/SpiralRoadmap/SPIRAL-IMPLEMENTATION-OVERVIEW.md`
 - 因子/权重验证设计：`docs/design/validation/`
 - 回测选型：`docs/design/backtest/backtest-engine-selection.md`
 
@@ -114,3 +115,6 @@ EmotionQuant 是面向中国 A 股的情绪驱动量化系统。自 2026-02-07 �
 | v4.1.0 | 2026-02-07 | 明确回测平台主选 Qlib；补充本地执行基线与兼容口径 |
 | v4.0.0 | 2026-02-07 | 切换到 Spiral 实现口径；新增 Validation Layer；更新回测与存储策略 |
 | v3.3.0 | 2026-02-05 | 线性重构版 |
+
+
+

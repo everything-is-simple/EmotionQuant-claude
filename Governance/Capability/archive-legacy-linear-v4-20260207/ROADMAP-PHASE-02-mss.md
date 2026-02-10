@@ -6,7 +6,7 @@
 **时间范围**: Phase 02
 **核心交付**: MSS算法实现、温度计算、周期判断、仓位建议
 **前置依赖**: Phase 01 (Data Layer)
-**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/ROADMAP/ROADMAP-OVERVIEW.md`）
+**实现状态**: 未实现（截至 2026-02-06：`src/` 仅有 Skeleton/占位与少量基础骨架，详见 `Governance/Capability/SPIRAL-CP-OVERVIEW.md`）
 
 ---
 ## 文档对齐声明
@@ -807,5 +807,7 @@ CREATE TABLE mss_quality_log (
 | v4.0.1 | 2026-02-04 | 修正输入层级标注并统一为 DuckDB 存储口径 |
 | v4.0.0 | 2026-02-02 | 完整重构：添加量化验收标准、I/O规范、错误处理、质量监控 |
 | v3.0.0 | 2026-01-31 | 重构版：统一公式、命名 |
+
+
 
 

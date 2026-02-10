@@ -7,7 +7,7 @@
 **数据源**: TuShare Pro + 上交所/深交所/北交所官方规则
 **优先级**: A股交易规则权威参考（恒星组文档 ⭐⭐⭐）
 **定位**: 参考资料（非设计规范）
-**路线图口径**: Spiral + CP（兼容文件名 `ROADMAP-PHASE-*`，以 `Governance/ROADMAP/ROADMAP-OVERVIEW.md` 为准）
+**路线图口径**: Spiral + CP（命名 `CP-*`，以 `Governance/Capability/SPIRAL-CP-OVERVIEW.md` 为准）
 **冲突处理**: 若与 `docs/design/` 冲突，以设计文档为准
 **整理更新**: 2026-02-05（系统铁律表述更新）
 
@@ -610,3 +610,6 @@ if 'error' not in emotion_data:
 *最后更新: 2025-02-12*
 *文档版本: v2.0*
 *EmotionQuant项目 - 恒星组文档 ⭐⭐⭐*
+
+
+
