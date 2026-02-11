@@ -7,8 +7,8 @@
 
 ## 1. 治理目录
 
-- `docs/design/core-algorithms/`：核心算法设计（MSS/IRS/PAS/Integration）
-- `docs/design/core-infrastructure/`：核心基础设施设计（Data/Validation/Backtest/Trading/GUI/Analysis）
+- `docs/design/core-algorithms/`：核心算法设计（MSS/IRS/PAS/Validation/Integration）
+- `docs/design/core-infrastructure/`：核心基础设施设计（Data/Backtest/Trading/GUI/Analysis）
 - `docs/design/enhancements/`：外挂增强设计与主计划入口
 - `Governance/Capability/`：Spiral 主路线与能力包（CP）
 - `Governance/SpiralRoadmap/`：新系统实现路线（按圈闭环）
@@ -28,7 +28,7 @@
 | 本圈做什么 | `Governance/Capability/SPIRAL-CP-OVERVIEW.md` |
 | 能力契约是什么 | `Governance/Capability/CP-*.md`（CP） |
 | 任务如何写 | `Governance/Capability/SPIRAL-TASK-TEMPLATE.md` |
-| 新系统按圈怎么推进 | `Governance/SpiralRoadmap/SPIRAL-IMPLEMENTATION-OVERVIEW.md` |
+| 新系统按圈怎么推进 | `Governance/SpiralRoadmap/draft/`（候选草稿） |
 | 6A 工作流如何执行 | `Governance/steering/6A-WORKFLOW.md` |
 | 改进行动主计划看哪里 | `docs/design/enhancements/eq-improvement-plan-core-frozen.md` |
 | 不可违反什么 | `Governance/steering/系统铁律.md` |

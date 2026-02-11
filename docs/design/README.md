@@ -19,13 +19,13 @@
 ### 2.1 核心算法
 
 - 路径：`docs/design/core-algorithms/`
-- 范围：MSS / IRS / PAS / Integration
+- 范围：MSS / IRS / PAS / Validation / Integration
 - 约束：算法语义、评分口径、门禁逻辑属于冻结区，只能实现，不得改写语义
 
 ### 2.2 核心基础设施
 
 - 路径：`docs/design/core-infrastructure/`
-- 范围：Data Layer / Validation / Backtest / Trading / GUI / Analysis
+- 范围：Data Layer / Backtest / Trading / GUI / Analysis
 - 原则：服务核心算法与核心功能；能在基础设施实现的，不上推到外挂层
 
 ### 2.3 外挂增强
@@ -38,7 +38,6 @@
 
 1. 执行主计划唯一入口：`docs/design/enhancements/eq-improvement-plan-core-frozen.md`
 2. 外挂选型论证：`docs/design/enhancements/enhancement-selection-analysis_claude-opus-max_20260210.md`
-3. 兼容指针：`docs/improvement-plans.md`（仅重定向说明，不是执行基线）
 
 ## 4. 边界规则
 

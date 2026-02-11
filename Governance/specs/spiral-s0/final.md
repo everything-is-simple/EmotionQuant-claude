@@ -27,7 +27,7 @@
    - `docs/design/data-layer/` -> `docs/design/core-infrastructure/data-layer/`
    - `docs/design/gui/` -> `docs/design/core-infrastructure/gui/`
    - `docs/design/trading/` -> `docs/design/core-infrastructure/trading/`
-   - `docs/design/validation/` -> `docs/design/core-infrastructure/validation/`
+   - `docs/design/validation/` -> `docs/design/core-infrastructure/validation/` -> `docs/design/core-algorithms/validation/`（后续评审确认 Validation 属于核心算法链路而非基础设施）
    - `docs/improvement-plans/` -> `docs/design/enhancements/`
 3. 入口文档对齐：
    - `README.md`

@@ -101,8 +101,8 @@ EmotionQuant 是面向中国 A 股的情绪驱动量化系统。自 2026-02-07 �
 - 设计目录总览：`docs/design/`（`core-algorithms/` + `core-infrastructure/` + `enhancements/`）
 - 路线总览：`Governance/Capability/SPIRAL-CP-OVERVIEW.md`
 - 能力包（CP）：`Governance/Capability/CP-*.md`
-- 新系统螺旋实现路线：`Governance/SpiralRoadmap/SPIRAL-IMPLEMENTATION-OVERVIEW.md`
-- 因子/权重验证设计：`docs/design/core-infrastructure/validation/`
+- 新系统螺旋实现路线：`Governance/SpiralRoadmap/draft/`（候选草稿；主计划入口见 `docs/design/enhancements/eq-improvement-plan-core-frozen.md`）
+- 因子/权重验证设计：`docs/design/core-algorithms/validation/`
 - 回测选型：`docs/design/core-infrastructure/backtest/backtest-engine-selection.md`
 
 ---

@@ -1,20 +1,13 @@
-# EmotionQuant 改进行动计划目录
+# Spiral 实施路线图候选草稿
 
-## 1. 目录用途
+## 目录定位
 
-本目录是系统“改进行动计划”的唯一固定入口。
+本目录存放 AI 生成的 Spiral 实施路线图候选草稿，仅供参考。
 
-目标: 解决计划文件分散、难定位的问题。
+**执行权威以主计划为准**：`docs/design/enhancements/eq-improvement-plan-core-frozen.md`
 
-## 2. 使用规则
+## 文件清单
 
-1. 当前有效计划只保留 1 份主文件:
-   - `docs/design/enhancements/eq-improvement-plan-core-frozen.md`
-2. 新一轮优化直接更新主文件内容与变更记录，不新增同类平行计划文件。
-3. 临时草稿、外部批判原文、过程性报告保留在 `.reports/`，不作为执行主入口。
-
-## 3. 阅读顺序
-
-1. 先看主计划: `docs/design/enhancements/eq-improvement-plan-core-frozen.md`
-2. 需要溯源时再看 `.reports/` 中历史批判与草稿。
+- `spiral-execution-roadmap-candidate_gpt5-codex_20260210.md`：GPT-5 Codex 候选稿（含任务拆解、工时估算、降级策略）
+- `spiral-full-roadmap-detailed_claude-opus-max_20260210.md`：Claude Opus 详细稿（含子任务、错误处理、验收标准）
 

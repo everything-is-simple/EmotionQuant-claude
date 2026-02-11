@@ -23,7 +23,7 @@
 | `docs/design/core-algorithms/integration/integration-data-models.md` | v3.4.10 | IntegratedRecommendation 28 字段 |
 | `docs/design/core-infrastructure/backtest/backtest-data-models.md` | v3.4.10 | BacktestSignal.source 双来源、EngineType 枚举 |
 | `docs/design/core-infrastructure/backtest/backtest-engine-selection.md` | v1.1.0 | Qlib 主选 + 本地向量化基线 |
-| `docs/design/core-infrastructure/validation/factor-weight-validation-data-models.md` | v2.1.1 | 五张 Validation 表、ValidationWeightPlan 桥接 |
+|| `docs/design/core-algorithms/validation/factor-weight-validation-data-models.md` | v2.1.1 | 五张 Validation 表、ValidationWeightPlan 桥接 |
 | `docs/design/core-infrastructure/analysis/analysis-data-models.md` | v3.1.6 | L4 日报模板字段、绩效公式 |
 | `docs/design/enhancements/eq-improvement-plan-core-frozen.md` | v2.0.0 | ENH-01~08 白名单、冻结边界 |
 | `Governance/steering/系统铁律.md` | v5.1.0 | 单指标不得独立决策；技术指标仅可对照/辅助 |

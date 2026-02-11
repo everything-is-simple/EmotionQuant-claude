@@ -189,8 +189,8 @@ cache_dir = "G:/EmotionQuant_data/"
 | 目录 | 定位 |
 |------|------|
 | `docs/design/` | 设计基准（三层：核心算法 / 核心基础设施 / 外挂增强） |
-| `docs/design/core-algorithms/` | 核心算法设计（MSS/IRS/PAS/Integration） |
-| `docs/design/core-infrastructure/` | 核心基础设施设计（Data/Validation/Backtest/Trading/GUI/Analysis） |
+| `docs/design/core-algorithms/` | 核心算法设计（MSS/IRS/PAS/Validation/Integration） |
+| `docs/design/core-infrastructure/` | 核心基础设施设计（Data/Backtest/Trading/GUI/Analysis） |
 | `docs/design/enhancements/` | 改进行动计划统一入口 |
 | `Governance/steering/` | 铁律、原则、工作流 |
 | `Governance/Capability/` | Spiral 主路线与 CP |
@@ -281,8 +281,8 @@ cache_dir = "G:/EmotionQuant_data/"
 
 | 版本 | 日期 | 变更内容 |
 |------|------|----------|
-|| v1.1.0 | 2026-02-11 | 与 CLAUDE.md 对齐同步：补充文档定位节、修正 Gate 决策归属、补充回测技术栈口径、补充仓库远端 |
-|| v1.0.0 | 2026-02-10 | 首版：与 Spiral 治理文件全面对齐，取代 4 条旧版个人 Rules |
+| v1.1.0 | 2026-02-11 | 与 CLAUDE.md 对齐同步：补充文档定位节、修正 Gate 决策归属、补充回测技术栈口径、补充仓库远端 |
+| v1.0.0 | 2026-02-10 | 首版：与 Spiral 治理文件全面对齐，取代 4 条旧版个人 Rules |
 
 
 

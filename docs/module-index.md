@@ -18,9 +18,9 @@ docs/
 │   │   ├── mss/
 │   │   ├── irs/
 │   │   ├── pas/
+│   │   ├── validation/
 │   │   └── integration/
 │   ├── core-infrastructure/
-│   │   ├── validation/
 │   │   ├── data-layer/
 │   │   ├── backtest/
 │   │   │   └── backtest-engine-selection.md
@@ -52,57 +52,49 @@ docs/
 - 路径：`docs/design/core-algorithms/pas/`
 - 输出：机会评分、等级、方向、风险收益比
 
-### 2.4 Integration
+### 2.4 Validation
+
+- 路径：`docs/design/core-algorithms/validation/`
+- 输出：Gate 决策（PASS/WARN/FAIL） + 权重桥接方案
+- 作用：因子有效性验证、权重方案验证、守卫核心算法链路有效性
+
+### 2.5 Integration
 
 - 路径：`docs/design/core-algorithms/integration/`
-- 输出：统一推荐信号与解释字段
+- 输出：消费 Gate 决策与权重方案，统一推荐信号与解释字段
 
 ---
 
-## 3. 验证模块（新增，必须）
+## 3. 基础设施模块
 
-### 3.1 Factor & Weight Validation
-
-- 路径：`docs/design/core-infrastructure/validation/`
-- 作用：
-  - 因子有效性验证（IC/RankIC/稳定性/衰减）
-  - 权重方案验证（baseline 对照、OOS 评估、风险约束）
-  - 输出 Gate 决策（PASS/WARN/FAIL）
-
-> 该模块是实现前必须补齐的“证据层”，避免因子和权重长期拍脑袋。
-
----
-
-## 4. 基础设施模块
-
-### 4.1 Data Layer
+### 3.1 Data Layer
 
 - 路径：`docs/design/core-infrastructure/data-layer/`
 - 存储口径：Parquet + DuckDB 单库优先
 
-### 4.2 Backtest
+### 3.2 Backtest
 
 - 路径：`docs/design/core-infrastructure/backtest/`
 - 选型口径：接口优先，可替换引擎
 
-### 4.3 Trading
+### 3.3 Trading
 
 - 路径：`docs/design/core-infrastructure/trading/`
 - 重点：纸上交易先行，风险规则可审计
 
-### 4.4 GUI
+### 3.4 GUI
 
 - 路径：`docs/design/core-infrastructure/gui/`
 - 主线技术：Streamlit + Plotly
 
-### 4.5 Analysis
+### 3.5 Analysis
 
 - 路径：`docs/design/core-infrastructure/analysis/`
 - 重点：绩效归因与日报
 
 ---
 
-## 5. 外挂增强设计
+## 4. 外挂增强设计
 
 - 路径：`docs/design/enhancements/`
 - 定位：在不改核心算法与核心基础设施语义前提下，承载可审计的增强方案
@@ -111,7 +103,7 @@ docs/
 
 ---
 
-## 6. 与 ROADMAP 的关系
+## 5. 与 ROADMAP 的关系
 
 - ROADMAP 文件采用 Capability Pack（CP）语义，不是线性闸门。
 - 文件名采用 `CP-*.md`，执行时按 CP 理解。
@@ -128,12 +120,5 @@ docs/
 | v4.1.0 | 2026-02-07 | 增补 Validation 对应 CP-10 的路线映射 |
 | v4.0.0 | 2026-02-07 | 新增 Validation 模块与回测选型文档；统一 Spiral 口径 |
 | v3.1.0 | 2026-02-05 | 线性重构版 |
-
----
-
-## 7. 设计迁移说明
-
-- 过渡期冲突处理：`docs/design/README-spiral-transition.md`
-
 
 

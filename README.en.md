@@ -34,7 +34,7 @@ Primary references:
 - `docs/module-index.md`
 - `docs/design/` (`core-algorithms/` + `core-infrastructure/` + `enhancements/`)
 - `Governance/Capability/SPIRAL-CP-OVERVIEW.md`
-- `Governance/SpiralRoadmap/SPIRAL-IMPLEMENTATION-OVERVIEW.md`
+- `Governance/SpiralRoadmap/draft/` (candidate drafts; the single execution baseline is `docs/design/enhancements/eq-improvement-plan-core-frozen.md`)
 
 ## Development model (Spiral)
 
@@ -72,9 +72,30 @@ Basic check:
 pytest -v
 ```
 
+## Directory navigation
+
+- `docs/`: system design and specifications
+- `Governance/Capability/`: spiral roadmap and capability packs
+- `Governance/SpiralRoadmap/`: implementation roadmap candidate drafts
+- `Governance/steering/`: iron rules, principles, workflow
+- `Governance/record/`: development status, tech debts, reusable assets
+- `.reports/`: critique reports and review records
+
+## Key document entries
+
+- `docs/system-overview.md`
+- `docs/module-index.md`
+- `docs/naming-conventions.md`
+- `Governance/steering/系统铁律.md`
+- `Governance/steering/CORE-PRINCIPLES.md`
+
 ## Repository
 
 - `origin`: `https://github.com/everything-is-simple/EmotionQuant_beta.git`
+
+## License
+
+MIT (see the `LICENSE` file for the authoritative text).
 
 
 
