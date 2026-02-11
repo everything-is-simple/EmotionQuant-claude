@@ -89,7 +89,7 @@ df = pro.daily(trade_date='20180810')
 | **5000积分官方** | >30字符 | 官方API | 直接连接TuShare官方API |
 | **10000积分网关** | ≤30字符 | 第三方网关 | 通过第三方网关连接 |
 
-**代码实现说明**（[docs/design/core-infrastructure/data-layer/data-layer-api.md](../../design/data-layer/data-layer-api.md)）：
+**代码实现说明**（[docs/design/core-infrastructure/data-layer/data-layer-api.md](../../design/core-infrastructure/data-layer/data-layer-api.md)）：
 
 ```python
 from src.data.downloaders.tushare_client import TuShareClient
@@ -161,7 +161,7 @@ python scripts/utils/test_tushare_token.py
 
 ## 四、系统集成
 
-### 3.1 标准使用模式
+### 4.1 标准使用模式
 
 ```python
 # src/data/repositories/daily_bar_repository.py
@@ -188,7 +188,7 @@ class DailyBarRepository:
             raise
 ```
 
-### 3.2 测试环境配置
+### 4.2 测试环境配置
 
 在单元测试中，可以使用真实token或mock：
 
@@ -214,16 +214,16 @@ def test_fetch_daily_bars(repository):
 
 ---
 
-## 四、频率控制与限制
+## 五、频率控制与限制
 
-### 4.1 频率限制
+### 5.1 频率限制
 
 | 频率类型 | 限制 |
 | --------- | ------ |
 | **每分钟** | 500次 |
 | **每日** | 常规接口无上限 |
 
-### 4.2 系统配置
+### 5.2 系统配置
 
 - **限流器设置**: **400 次/分钟**（留 20% 余量）
 
@@ -231,7 +231,7 @@ def test_fetch_daily_bars(repository):
 
 - **自适应模式**: 禁用（使用固定速率）
 
-### 4.3 EmotionQuant项目调用频率
+### 5.3 EmotionQuant项目调用频率
 
 根据项目需求，以下是典型场景的调用频率：
 
@@ -244,7 +244,7 @@ def test_fetch_daily_bars(repository):
 
 **结论**：5000积分权限完全满足EmotionQuant项目的所有数据需求，无需担心频率限制。
 
-### 4.4 频率控制配置
+### 5.4 频率控制配置
 
 ```python
 # 系统配置
@@ -259,9 +259,9 @@ RATE_LIMITS = {
 
 ---
 
-## 五、EmotionQuant数据需求支持
+## 六、EmotionQuant数据需求支持
 
-### 5.1 核心接口支持
+### 6.1 核心接口支持
 
 5000积分足够支持EmotionQuant项目的数据需求：
 
@@ -271,7 +271,7 @@ RATE_LIMITS = {
 
 - **PAS系统**: 获取个股价格行为数据
 
-### 5.2 关键接口清单
+### 6.2 关键接口清单
 
 | 接口 | 积分要求 | 频率限制 | 系统用途 |
 | ------ | --------- | --------- | ---------- |
@@ -287,9 +287,9 @@ RATE_LIMITS = {
 
 ---
 
-## 六、常见问题
+## 七、常见问题
 
-### 6.1 为什么获取不到数据？
+### 7.1 为什么获取不到数据？
 
 **可能原因**：
 
@@ -316,7 +316,7 @@ except Exception as e:
     print(f"连接失败: {e}")
 ```
 
-### 6.2 如何避免频率限制？
+### 7.2 如何避免频率限制？
 
 **最佳实践**：
 
@@ -337,15 +337,15 @@ for code in stock_list:
 df = pro.daily(trade_date='20251219')  # ✅ 推荐方式
 ```
 
-### 6.3 Token需要定期重置吗？
+### 7.3 Token需要定期重置吗？
 
 **A**: 不需要。有效期内固定使用，到期续费即可。
 
-### 6.4 多人使用同一Token会被清退吗？
+### 7.4 多人使用同一Token会被清退吗？
 
 **A**: 会。Token限个人使用，发现多人调用将进行清退。
 
-### 6.5 遇到IP并发限制怎么办？
+### 7.5 遇到IP并发限制怎么办？
 
 **A**: 5000积分官方API有IP并发限制（同一账号在2个以上IP同时调用会被拦截）。
 
@@ -357,9 +357,9 @@ df = pro.daily(trade_date='20251219')  # ✅ 推荐方式
 
 ---
 
-## 七、安全与最佳实践
+## 八、安全与最佳实践
 
-### 7.1 安全警告 ⚠️
+### 8.1 安全警告 ⚠️
 
 1. **禁止硬编码Token**: 生产环境必须通过 `.env` 文件和 `Config.from_env()` 加载
 
@@ -367,14 +367,14 @@ df = pro.daily(trade_date='20251219')  # ✅ 推荐方式
 
 3. **禁止多人共享Token**: Token限个人使用，发现多人调用将被清退
 
-### 7.3 Token泄露应急处理（立即执行）
+### 8.2 Token泄露应急处理（立即执行）
 
 1. 立刻在 TuShare 控制台重置/轮换 Token。
 2. 仅在本机 `.env` 更新 `TUSHARE_TOKEN`，不要写入任何文档或代码。
 3. 检查最近提交与报告文件，确认无明文 Token 残留。
 4. 重新运行最小连接验证脚本，确认新 Token 可用。
 
-### 7.2 最佳实践 ✅
+### 8.3 最佳实践 ✅
 
 1. **使用Config类**: 统一通过 `Config.from_env()` 加载配置
 
@@ -388,7 +388,7 @@ df = pro.daily(trade_date='20251219')  # ✅ 推荐方式
 
 ---
 
-## 八、技术支持
+## 九、技术支持
 
 ### 官方资源
 
@@ -404,9 +404,9 @@ df = pro.daily(trade_date='20251219')  # ✅ 推荐方式
 
 - [A股规则与TuShare映射](../astock-rules-handbook.md)
 
-- [数据模型规范](../../design/data-layer/data-layer-data-models.md)
+- [数据模型规范](../../design/core-infrastructure/data-layer/data-layer-data-models.md)
 
-- [API接口规范](../../design/data-layer/data-layer-api.md)
+- [API接口规范](../../design/core-infrastructure/data-layer/data-layer-api.md)
 
 ---
 

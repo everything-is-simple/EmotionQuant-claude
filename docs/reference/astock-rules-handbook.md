@@ -262,8 +262,8 @@ def check_data_quality(df: pd.DataFrame, table_name: str) -> dict:
 ---
 
 **关联文档**：
-- 数据层设计：[../design/data-layer/](../design/data-layer/)
-- 回测设计：[../design/backtest/](../design/backtest/)
+- 数据层设计：[../design/core-infrastructure/data-layer/](../design/core-infrastructure/data-layer/)
+- 回测设计：[../design/core-infrastructure/backtest/](../design/core-infrastructure/backtest/)
 
 
 

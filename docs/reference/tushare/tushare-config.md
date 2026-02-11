@@ -241,9 +241,9 @@ python scripts/utils/activate_tushare_token_10000.py
 
 - [A股规则与TuShare映射](../astock-rules-handbook.md) - MSS/IRS/PAS数据映射
 
-- [数据模型规范](../../design/data-layer/data-layer-data-models.md) - 数据模型定义
+- [数据模型规范](../../design/core-infrastructure/data-layer/data-layer-data-models.md) - 数据模型定义
 
-- [API接口规范](../../design/data-layer/data-layer-api.md) - API接口定义
+- [API接口规范](../../design/core-infrastructure/data-layer/data-layer-api.md) - API接口定义
 
 ### TuShare官方
 
@@ -298,6 +298,6 @@ python scripts/utils/activate_tushare_token_10000.py
 
 ---
 
-**最后更新**: 2026-01-09
-**文档版本**: v3.0
+**最后更新**: 2026-02-04
+**文档版本**: v3.1
 **维护者**: EmotionQuant Team
