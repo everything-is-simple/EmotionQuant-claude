@@ -38,10 +38,10 @@ Analysis / GUI 刷新
 
 | 检查点 | 条件 | 超时 |
 |--------|------|------|
-| `trade_calendar` | 当日为交易日且日历可读 | 2 分钟 |
+| `raw_trade_cal` | 当日为交易日且日历可读 | 2 分钟 |
 | `raw_daily` | 覆盖当日目标股票池 | 10 分钟 |
 | `raw_index_daily` | 指数数据可用 | 5 分钟 |
-| `index_classify(SW2021)` | 31 行业映射齐全 | 5 分钟 |
+| `raw_index_classify(SW2021)` | 31 行业映射齐全 | 5 分钟 |
 | `validation_gate_decision` | `final_gate ∈ {PASS, WARN}` 且 `selected_weight_plan` 非空 | 2 分钟 |
 | `integrated_recommendation` | 推荐结果生成成功 | 3 分钟 |
 

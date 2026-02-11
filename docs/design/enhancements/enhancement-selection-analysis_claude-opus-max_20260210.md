@@ -16,17 +16,17 @@
 
 | 依赖文档 | 版本 | 引用内容 |
 |----------|------|----------|
-| `docs/system-overview.md` | v4.1.2 | 架构分层、回测选型、数据策略 |
+| `docs/system-overview.md` | v4.1.3 | 架构分层、回测选型、数据策略 |
 | `docs/design/core-infrastructure/data-layer/data-layer-data-models.md` | v3.2.5 | L1 八张原始表 schema、L2/L3 字段定义 |
 | `docs/design/core-infrastructure/data-layer/data-layer-api.md` | v3.1.2 | TuShareClient 异常体系、重试机制 |
 | `docs/design/core-algorithms/mss/mss-data-models.md` | v3.1.6 | MssPanorama 输出字段 |
 | `docs/design/core-algorithms/integration/integration-data-models.md` | v3.4.10 | IntegratedRecommendation 28 字段 |
 | `docs/design/core-infrastructure/backtest/backtest-data-models.md` | v3.4.10 | BacktestSignal.source 双来源、EngineType 枚举 |
 | `docs/design/core-infrastructure/backtest/backtest-engine-selection.md` | v1.1.0 | Qlib 主选 + 本地向量化基线 |
-|| `docs/design/core-algorithms/validation/factor-weight-validation-data-models.md` | v2.1.1 | 五张 Validation 表、ValidationWeightPlan 桥接 |
+| `docs/design/core-algorithms/validation/factor-weight-validation-data-models.md` | v2.1.1 | 五张 Validation 表、ValidationWeightPlan 桥接 |
 | `docs/design/core-infrastructure/analysis/analysis-data-models.md` | v3.1.6 | L4 日报模板字段、绩效公式 |
-| `docs/design/enhancements/eq-improvement-plan-core-frozen.md` | v2.0.0 | ENH-01~08 白名单、冻结边界 |
-| `Governance/steering/系统铁律.md` | v5.1.0 | 单指标不得独立决策；技术指标仅可对照/辅助 |
+| `docs/design/enhancements/eq-improvement-plan-core-frozen.md` | v2.1.0 | ENH-01~08 白名单、冻结边界 |
+| `Governance/steering/系统铁律.md` | v5.1.1 | 单指标不得独立决策；技术指标仅可对照/辅助 |
 
 ### 冻结边界声明
 
@@ -56,8 +56,8 @@
 
 **审查依据**（全部已通读）：
 - 三份实施方案（core-frozen v2.0、Claude 详细版、GPT-5 Codex 候选稿）
-- 系统总览 `docs/system-overview.md` v4.1.2
-- 系统铁律 `Governance/steering/系统铁律.md` v5.1.0
+- 系统总览 `docs/system-overview.md` v4.1.3
+- 系统铁律 `Governance/steering/系统铁律.md` v5.1.1
 - SPIRAL-CP-OVERVIEW v6.1.0
 - 对标批判报告（原版 + 修订版）及两份行动计划
 - Validation 算法设计 `factor-weight-validation-algorithm.md` v2.1.0
