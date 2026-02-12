@@ -1,7 +1,7 @@
 # Analysis 数据模型
 
-**版本**: v3.1.6（重构版）
-**最后更新**: 2026-02-09
+**版本**: v3.1.7（重构版）
+**最后更新**: 2026-02-12
 **状态**: 设计完成（代码未落地）
 
 ---
@@ -126,8 +126,8 @@ class DailyReportData:
 class MarketOverview:
     """市场概况"""
     temperature: float            # 温度 [0-100]
-    temperature_level: str        # 等级 (high/medium/low)
-    cycle: str                    # 周期 (emergence/fermentation/acceleration/divergence/climax/diffusion/recession)
+    temperature_level: str        # 等级 (high/medium/cool/low)
+    cycle: str                    # 周期 (emergence/fermentation/acceleration/divergence/climax/diffusion/recession/unknown)
     cycle_label: str              # 中文标签
     trend: str                    # 趋势 (up/down/sideways)
     position_advice: str          # 仓位建议
@@ -142,7 +142,6 @@ class IndustryRotation:
     top5: List[Tuple[str, float]] # Top5行业 [(名称, 评分), ...]
     in_count: int                 # 轮入行业数
     out_count: int                # 轮出行业数
-    strong_count: int             # 强势行业数
 ```
 
 ### 2.4 SignalStats（信号统计）
@@ -321,7 +320,7 @@ class IndustryRadarData:
     industries: List[str]         # 行业名称
     scores: List[float]           # 行业评分
     status: List[str]             # 轮动状态
-    highlight_indices: List[int]  # IN/STRONG行业索引
+    highlight_indices: List[int]  # IN行业索引
 ```
 
 ### 5.3 ScoreDistributionData（评分分布图）
@@ -388,6 +387,7 @@ class ReportType(Enum):
 
 | 版本 | 日期 | 变更内容 |
 |------|------|----------|
+| v3.1.7 | 2026-02-12 | 修复 R16：temperature_level 改为 4 级并补齐 cycle 的 unknown；删除 IndustryRotation.strong_count（无算法来源）；统一 IndustryRadarData 索引注释为 IN |
 | v3.1.6 | 2026-02-09 | 修复 R28：`DailyReport` dataclass 补齐 `total_return` 字段，与 `daily_report` DDL 一致 |
 | v3.1.5 | 2026-02-09 | 修复 R21：`DailyReportData` 补齐 `created_at`；`daily_report` DDL 增加 `total_return`；输入依赖表补齐归因所需 `integrated_recommendation.entry` 与成交价关键字段 |
 | v3.1.4 | 2026-02-08 | 修复 R15：`PerformanceMetrics` 数据类与 `performance_metrics` DDL 补齐 `volatility` 字段 |
