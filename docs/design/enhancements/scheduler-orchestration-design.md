@@ -15,7 +15,7 @@
 ```text
 Data Layer
   ├─ raw_daily / raw_daily_basic / raw_limit_list / trade_calendar
-  └─ stock_info / index_classify
+  └─ stock_basic / index_classify
         ↓
 MSS / IRS / PAS
         ↓

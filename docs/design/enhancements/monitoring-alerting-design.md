@@ -11,7 +11,7 @@
 
 ## 监控范围
 
-- 数据层：`raw_*`、`stock_info`、`trade_calendar` 的完整性与时效
+- 数据层：`raw_*`、`stock_basic`、`trade_calendar` 的完整性与时效
 - 因子层：MSS / IRS / PAS 输出覆盖率、异常值比例、耗时
 - Validation 层：Gate 决策状态（PASS/WARN/FAIL）、因子 IC 偏离、权重验证失败、`stale_days` 超阈值
 - 集成层：Integration 成功率、推荐数量、边界校验失败数
@@ -27,7 +27,7 @@
 | 类别 | 指标 | 阈值 | 级别 |
 |------|------|------|------|
 | 数据时效 | 当日 `trade_calendar` 未就绪 | > 5 分钟 | P1 |
-| 数据完整 | `stock_info` 覆盖率 | < 99% | P1 |
+| 数据完整 | `stock_basic` 覆盖率 | < 99% | P1 |
 | 算法输出 | MSS/IRS/PAS 产出为空 | 任一为空 | P1 |
 | Validation Gate | `final_gate=FAIL` | 1 次即触发 | P0 |
 | Validation 过期 | `stale_days > 3` | > 3 天 | P1 |
